@@ -1,0 +1,13 @@
+ToDo list:
+1. See defs.h, for some machine/platform definition, here are examples for
+   kernel 2.6.31.
+   
+   #define VMALLOC_START_ADDR_2_6_31  0xffffc90000000000
+   #define VMALLOC_END_2_6_31         0xffffe8ffffffffff
+   #define VMEMMAP_VADDR_2_6_31       0xffffea0000000000
+   #define VMEMMAP_END_2_6_31         0xffffeaffffffffff
+   #define MODULES_VADDR_2_6_31       0xffffffffa0000000
+   #define MODULES_END_2_6_31         0xffffffffff000000
+
+   Now if we want to analyze 2.3.12 xendump kernel image by crash, it might
+   fail to parse the image file, most likely.
