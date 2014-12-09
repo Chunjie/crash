@@ -11,3 +11,8 @@ ToDo list:
 
    Now if we want to analyze 2.3.12 xendump kernel image by crash, it might
    fail to parse the image file, most likely.
+
+2. [verification]
+   crash --machdep phys_base=0xffffffffff200000 vmlinux domU.core
+   FV guest -> works?
+   PV guest -> works?
