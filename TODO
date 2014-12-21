@@ -16,3 +16,6 @@ ToDo list:
    crash --machdep phys_base=0xffffffffff200000 vmlinux domU.core
    FV guest -> works?
    PV guest -> works?
+
+3. build
+   either the bison or byacc (Berkeley Yacc) package must be installed.   
